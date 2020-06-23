@@ -1,0 +1,400 @@
+/* GENERAL RULES */
+/*
+	Main Color => color: #FF6610; 
+*/
+::selection{
+	background-color: #FF6610;
+	color: #fff;
+}
+a { text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* SPECIFIC DESIGN */
+.navbar a {
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 1.5px;
+}
+.navbar a span { color: #FF6610;  }
+.dropdown-menu {
+	width: 190px;
+	padding: 5px;
+	font-size: 12px;
+	background-color: #212529;
+}
+.dropdown-menu .dropdown-item { color: #fff; }
+.dropdown-menu .dropdown-item:hover { color: #FF6610; font-weight: bold; }
+.dropdown-menu .dropdown-divider { 
+	border-top-color: #FF6610;
+}
+.navbar .btn {
+	color: #FF6610;
+	border: 1px solid #FF6610;
+	transition: background-color .2s ease-in, color .2s ease-in;
+	outline: none;
+}
+.navbar .btn:hover {
+	color: #fff;
+	background-color: #FF6610;
+}
+
+/* =================HEADER================ */
+header {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-image: linear-gradient( rgba(0, 0, 0, .6),  rgba(0, 0, 0, .6) ), url(../images/header-img.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 470px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+header .topper-header {
+	margin-left: auto;
+	margin-right: auto;
+}
+header .topper-header h1,
+header .topper-header h1 span {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 38px;
+	margin-bottom: 20px;
+	letter-spacing: 1.2px;
+}
+header .topper-header h1 span { color: #FF6610; }
+header .topper-header p {
+	width: 650px;
+	color: #c6c6c6;
+	font-size: 18px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.lead{
+  max-width: 100%;
+}
+header .topper-header .btn:first-of-type {
+	border: 1px solid #FF6610;
+	color: #FF6610;
+	width: 115px;
+	transition: background-color .2s ease-in, color .2s ease-in;
+}
+header .topper-header .btn:first-of-type:hover {
+	background-color: #FF6610;
+	color: #fff;
+}
+header .topper-header .btn:last-of-type {
+	background-color: #FF6610;
+	color: #fff;
+	width: 115px;
+	transition: background-color .2s ease-in, color .2s ease-in;
+}
+header .topper-header .btn:last-of-type:hover {
+	border: 1px solid #FF6610;
+	color: #FF6610;
+	background-color: transparent;
+}
+header .topper-header .text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+/* ================= FEATURES ================ */
+.features {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.features h3,
+.features h3 span {
+	margin-bottom: 48px;
+	font-weight: bold;
+}
+.features h3 { color: #333; }
+.features h3 span { color: #FF6610; }
+.features .feature {
+	margin-bottom: 15px;
+}
+.features .feature .feature-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid #333;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	line-height: 100px;
+}
+.features .feature .feature-icon i{ color: #FF6610; }
+.features .feature h5 {
+	color: #FF6610;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.features .feature .feature-description {
+	color: dimgray;
+	font-size: 14px;
+}
+
+/* ============== SUBSCRIPTION ============== */
+.subscription {
+	background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 1)), url(../images/portfolio-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.subscription form {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.subscription form input[type="text"] {
+	border: 1px solid #ccc;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 13px;
+	height: 34px;
+	width: 300px;
+	margin-right: 15px;
+	outline: none;
+	padding-left: 10px;
+}
+.subscription form button {
+	font-size: 15px;
+	color: #FF6610;
+	border: 1px solid #FF6610;
+	transition: background-color .2s ease-in, color .2s ease-in;
+}
+.subscription form button:hover {
+	background-color: #FF6610;
+	color: #fff;
+}
+/* =============== OUR WORK ==================== */
+.our-work {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.our-work h3 span,
+.our-work h3 { margin-bottom: 10px; }
+.our-work h3 { color: #333; }
+.our-work h3 span { color: #FF6610; }
+.our-work p {
+	width: 460px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	color: dimgray;
+	margin-bottom: 48px;
+}
+.our-work .project-images {
+	overflow: hidden;
+	margin-bottom: 35px;
+	overflow: hidden;
+}
+.our-work .project-images img {
+	width: 100%;
+	height: 100%;
+	transition: transform .2s ease-in;
+}
+.our-work .project-images img:hover {
+	transform: scale(1.2, 1.2);
+}
+.our-work .show-more-work-btn {
+	font-size: 15px;
+	color: #FF6610;
+	border: 1px solid #FF6610;
+	transition: background-color .2s ease-in, color .2s ease-in;
+}
+.our-work .show-more-work-btn:hover {
+	background-color: #FF6610;
+	color: #fff;
+}
+
+/* ================ TESTIMENIAL ================= */
+.testimenials {
+	background-color: #F8F8F8;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.testimenials .container {
+	background-color: red;
+}
+.testimenials .container .row {
+	background-color: green;
+}
+.testimenials h3 { margin-bottom: 35px; }
+.testimenials .row {
+	margin-left: auto;
+	margin-right: auto;
+}
+.testimenials .card {
+	width: 15rem;
+	margin-bottom: 25px;
+	
+}
+.testimenials .card .client-image { overflow: hidden; }
+.testimenials .card img {
+	transition: transform .2s linear;
+}
+.testimenials .card img:hover {
+	transform: scale(1.2, 1.2);
+}
+.testimenials .card .card-body .card-title { color: #FF6610; }
+.testimenials .card .card-body a {
+	font-size: 15px;
+	color: #FF6610;
+	border: 1px solid #FF6610;
+	transition: background-color .2s ease-in, color .2s ease-in;
+}
+.testimenials .card .card-body a:hover {
+	background-color: #FF6610;
+	color: #fff;
+}
+
+/* ================ EMAILING ================= */
+.hire-us {
+	background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/portfolio-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 50px 0;
+}
+.hire-us h3,
+.hire-us h3 span { margin-bottom: 20px; }
+.hire-us h3 span { color: #FF6610; }
+
+.hire-us p {
+	width: 460px;
+	margin-bottom: 70px;
+	font-size: 15px;
+	color: #c6c6c6;
+}
+
+.hire-us form {
+	width: 630px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+.hire-us form input {
+	margin-bottom: 40px;
+	font-size: 13px;
+	outline: none;
+	background-color: transparent;
+	color: #fff;
+}
+
+.hire-us form input:focus{
+	background-color: transparent;
+}
+
+.hire-us form textarea {
+	width: 100%;
+	height: 170px;
+	resize: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 8px;
+	font-size: 13px;
+	background-color: transparent;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.hire-us form button {
+	font-size: 15px;
+	color: #fff;
+	background-color: #FF6610;
+	transition: background-color .2s ease-in, color .2s ease-in;
+	margin-left: 16px;
+	width: 85px;
+}
+.hire-us form button:hover {
+	background-color: transparent;
+	color:#FF6610;
+	border: 1px solid #FF6610;
+}
+
+/* FOOTER */
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #333;
+}
+
+/* ======================================================= SIGN IN FORM ================================================================ */
+.sign-in-form {
+	display: flex;
+	max-width: 100%;
+}
+.sign-in-form .sign-in-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: linear-gradient( rgba(0, 0, 0, .4), rgba(0, 0, 0, .4) ), url(../images/portfolio-4.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 40%;
+	height: 100vh;
+	max-width: 100%;
+}
+.sign-in-form .sign-in-image h1 {
+	font-size: 45px;
+}
+.sign-in-form .sign-in-box {
+	width: 60%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 100%;
+}
+.sign-in-form .sign-in-box form {
+	width: 360px;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-right: auto;
+margin-left: auto;
+}
+.sign-in-form .sign-in-box form a{
+	display: block;
+width: 100%;
+margin-bottom: 20px;
+text-decoration: none;
+	}
+.sign-in-form .sign-in-box form input {
+	margin-bottom: 35px;
+background-color: transparent;
+border: none;
+border-bottom: 1px solid orange;
+font-size: 15px;
+color: #333;	
+}
+
+.sign-in-form .sign-in-box form button {
+	font-size: 15px;
+	color: #fff;
+	background-color: #FF6610;
+	transition: background-color .2s ease-in, color .2s ease-in;
+}
+.sign-in-form .sign-in-box form button:hover {
+	background-color: transparent;
+	color: #FF6610;
+	border: 1px solid #FF6610;
+}
